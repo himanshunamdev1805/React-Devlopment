@@ -11,7 +11,7 @@ function App() {
   const [language,setLanguage]=useState("");
   const [language1,setLanguage1]=useState("");
   const [list,setList]=useState([]);
-
+//asjfdasjifhnisadhansdo
   const handleSubmit=()=>{
 
     const data={fname,lname,email,address,mobile,gender,language,language1}
