@@ -108,8 +108,8 @@ const RegistrationForm = () => {
     <div className="App">
 
       <div className="title">Welcome</div>
-      <div className="subtitle">User Registration-Form! </div>
-      <p>{error.name}</p>
+      <div className="subtitle">Registration Form</div>
+      <p>{error.name}</p> 
       <p>{error.email}</p>
       <p>{error.password}</p>
 
