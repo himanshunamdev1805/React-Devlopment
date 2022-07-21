@@ -33,10 +33,10 @@ export default function App() {
       <h1 className="title">Player Stat Sheet</h1>
       <h3>Stats:</h3>
       <div className="flex-hor">
-        <div className="dmg">Damage: {sumOfDamage}</div>
-        <div className="dfc">Defense: {sumOfDefense}</div>
+        <div className="dmg"><h3>Damage: {sumOfDamage}</h3></div>
+        <div className="dfc"><h3>Defense: {sumOfDefense}</h3></div>
       </div>
-      <h3>Items:</h3>
+      <h3 >ITEM LIST</h3>
      
 <label className="toggle">
   <input className="toggle-checkbox"type="checkbox" onChange={handleToggle}/>
@@ -45,7 +45,7 @@ export default function App() {
 </label>
 
       {/* <div>Display Here</div> */}
-      <div>{displayGear}</div>
+      <div><h3>{displayGear}</h3></div>
     </div>
   );
 }
